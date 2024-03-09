@@ -57,6 +57,7 @@ a {
 
 .address {
   font-style: normal;
+
 }
 
 .address .link {
@@ -81,6 +82,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-top: 188px;
+ padding-bottom: 188px;
+
 }
 
 .banner-button {
@@ -91,6 +95,12 @@ a {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .banner-button:hover,
@@ -116,10 +126,14 @@ a {
 
 .section-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .member-item {
   background-color: #ffffff;
+padding-right: 20px;
+
 }
 
 .section-header {
@@ -143,4 +157,42 @@ a {
 .footer-text {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-header-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  
+} 
+.link{
+  margin-right: 40px;
+}
+.member-list{
+  display: flex;
+
+
+}
+/* .address {
+  display: flex;
+}
+.display {
+  display: flex;
+}
+.company-logo {
+  margin-right: 76px;
 }
